@@ -2,7 +2,7 @@ version: '3'
 services:
   llm-app:
     restart: always
-    image: dev-llm:v141
+    image: langchain-dev:v1
     build:
       context: ../
       dockerfile: llm-dev/Dockerfile
